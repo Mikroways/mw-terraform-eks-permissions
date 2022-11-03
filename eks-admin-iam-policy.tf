@@ -53,7 +53,8 @@ module "eks_admin_iam_policy" {
                 "iam:GetOpenIDConnectProvider",
                 "iam:AddClientIDToOpenIDConnectProvider",
                 "iam:TagOpenIDConnectProvider",
-                "iam:GetRolePolicy"
+                "iam:GetRolePolicy",
+                "iam:CreateServiceLinkedRole"
             ],
             "Resource": "*"
         }
